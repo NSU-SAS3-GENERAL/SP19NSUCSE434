@@ -75,6 +75,22 @@ img.resumePicture {
     padding-bottom: 5px;
 }
 
+.Education{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.ExperienceLeft{
+    text-align: left;
+}
+
+.ExperienceRight{
+    text-align: right;
+}
+
 .Job{
     display: flex;
     flex-direction: column;
