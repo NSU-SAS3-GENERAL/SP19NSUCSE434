@@ -64,6 +64,7 @@ img.resumePicture {
 
 .NoBulletPoints{
     list-style-type: none;
+    padding: 0;
 }
 
 
@@ -102,14 +103,14 @@ img.resumePicture {
     text-align: justify-all;
 }
 
-.WebLinks{
+.WebLinkGroup{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-top: 45px;
-    padding-bottom: 45px;
-    padding-left: 15px;
-    padding-right: 15px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .fas{
@@ -122,9 +123,10 @@ img.resumePicture {
     padding-right: 15px;
 }
 
-.WebLink{
+.WebLinkGroupItem{
     display: flex;
     flex-flow: row wrap;
+    justify-content: space-between;
     font-size: 150%;
     padding: 5px;
     justify-content: left;
