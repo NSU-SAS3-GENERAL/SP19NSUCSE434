@@ -64,10 +64,20 @@ footer{
     list-style-type: none;
 }
 
-ul.Job{
-    padding-left: 12pt;
+.ExperienceDurationAndLocation{
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-ul.Job{
-    list-style-type: none;
+.Job{
+    display: flex;
+    flex-flow: column wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
