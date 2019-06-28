@@ -85,3 +85,32 @@ img.resumePicture {
 .ExperienceDescriptionLine{
     text-align: justify-all;
 }
+
+.WebLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fas{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.fab{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.WebLink{
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 150%;
+    padding: 5px;
+    justify-content: left;
+}
+
