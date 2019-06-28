@@ -6,6 +6,16 @@ header{
     padding: 10px;
 }
 
+footer{
+    display: flex;
+    flex-direction: column;
+    background-color: lightgrey;
+    border: 5px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+
 img.resumePicture {
     border-radius: 50%;
     border: 2px solid lightsteelblue;
@@ -51,13 +61,10 @@ img.resumePicture {
     padding-right: 30px;
 }
 
-footer{
-    display: flex;
-    flex-flow: row wrap;
-    background-color: lightgrey;
-    border: 5px solid black;
-    padding: 10px;
+.NoBulletPoints{
+    list-style-type: none;
 }
+
 
 .ExperienceDurationAndLocation{
     display: flex;
