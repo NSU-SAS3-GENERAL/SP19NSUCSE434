@@ -1,9 +1,10 @@
 header{
     background-color: lightgrey;
     border: 5px solid black;
-    padding: 50px;
+    padding: 10px;
 }
 
-img.roundedCornerImages50pcnt {
+img.resumePicture {
     border-radius: 50%;
+    float: left;
 }
