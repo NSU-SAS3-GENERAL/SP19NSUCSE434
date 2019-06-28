@@ -37,17 +37,14 @@ img.resumePicture {
 .ResumeBodyLeft{
     background-color: grey;
     font-size: 150%;
-    padding-left: 30px;
-    padding-right: 30px;
-    display: flex;
-    flex-direction: column;
     border: 5px solid black;
+    padding: 10px
 }
 
 .ResumeBodyRight{
     background-color: grey;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     flex-direction: column;
     border: 5px solid black;
@@ -111,6 +108,18 @@ img.resumePicture {
     margin-right: 45px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.MainNavBarLinkGroup{
+    display: flex;
+    flex-direction: column;
+    justify-items: stretch;
+}
+
+.MainNavBarLinkGroupItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
 }
 
 .fas{
