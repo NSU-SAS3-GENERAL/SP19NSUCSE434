@@ -1,4 +1,6 @@
 header{
+    display: flex;
+    flex-direction: row;
     background-color: lightgrey;
     border: 5px solid black;
     padding: 10px;
@@ -6,5 +8,12 @@ header{
 
 img.resumePicture {
     border-radius: 50%;
-    float: left;
+    border: 2px solid lightsteelblue;
+    margin: 20px;
+}
+
+#headerText{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
 }
