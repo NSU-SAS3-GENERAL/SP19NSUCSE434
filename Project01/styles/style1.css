@@ -44,11 +44,11 @@ img.resumePicture {
 
 .ResumeBodyCenter{
     margin: 2px;
+    display: flex;
+    flex-direction: column;
     background-color: lightgrey;
     padding-left: 30px;
     padding-right: 30px;
-    display: flex;
-    flex-direction: column;
 }
 
 footer{
@@ -61,16 +61,19 @@ footer{
 
 .ExperienceDurationAndLocation{
     display: flex;
-    flex-direction: column;
-    margin: 10px;
+    flex-flow: row wrap;
+    justify-content: space-between;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
 .Job{
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: column;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+.ExperienceDescriptionLine{
+    text-align: justify-all;
+}
