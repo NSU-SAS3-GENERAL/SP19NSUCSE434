@@ -3,7 +3,7 @@ header{
     flex-flow: row wrap;
     background-color: lightgrey;
     border: 5px solid black;
-    padding: 10px;
+    padding: 2px;
     justify-content: space-between;
 }
 
@@ -19,14 +19,14 @@ footer{
 
 img.resumePicture {
     border-radius: 50%;
-    border: 2px solid lightsteelblue;
-    margin: 20px;
+    border: 2px solid black;
+    padding: 10px;
 }
 
 #headerText{
     display: flex;
     flex-direction: column;
-    margin: 20px;
+    padding: 10px;
 }
 
 #ResumeBody{
@@ -36,32 +36,36 @@ img.resumePicture {
 
 .ResumeBodyLeft{
     background-color: grey;
-    font-size: 150%;
+    display: flex;
+    flex-direction: column;
     border: 5px solid black;
-    padding: 10px
+    padding: 10px;
 }
 
 .ResumeBodyRight{
     background-color: grey;
-    padding-left: 10px;
-    padding-right: 10px;
     display: flex;
     flex-direction: column;
     border: 5px solid black;
+    padding: 10px;
 }
 
 .ResumeBodyCenter{
     display: flex;
     flex-direction: column;
     background-color: lightgrey;
+    border: 5px solid black;
     padding-left: 30px;
     padding-right: 30px;
-    border: 5px solid black;
 }
 
 .NoBulletPoints{
     list-style-type: none;
     padding: 0;
+}
+
+.SlightLeftPadding{
+    padding-left: 12pt;
 }
 
 
@@ -89,11 +93,17 @@ img.resumePicture {
     text-align: right;
 }
 
+.Jobs{
+    display: flex;
+    flex-direction: column;
+    padding: 30pt;
+}
+
 .Job{
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .ExperienceDescriptionLine{
@@ -120,6 +130,9 @@ img.resumePicture {
     display: flex;
     flex-direction: row;
     justify-content: left;
+    padding-top: 10pt;
+    padding-bottom: 10pt;
+    font-size: large;
 }
 
 .fas{
